@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <html lang="en">
+<head>
+
+<title>CNIT-132 -Final project</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Final project in CNIT-132 ">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="pacific.css" >
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+     
+<body>
+<div id='wrapper'>
+<h1>Pacific Trails Resort</h1>
+<nav>
+    <ul>
+  <li><a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+  <li><a href="yurts.html">Yurts</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+  <li><a href="activities.html">Activities</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li> <a href="reservations.html">Reservations</a></li>
+    </ul>
+
+    </nav>
+ 
+<main>
+<h2>Make reservations the easy way</h2>
+ <form method="post" action="contact.php">
+<p><label for="first_name">First name:</label>
+<input type="text" name="first_name" id="first_name" size="35" maxlength="50" placeholder="Type first name" required></p>
+ <p><label for="last_name">Last name:</label>
+<input type="text" name="last_name" id="last_name" size="35" maxlength="50" placeholder="Type last name" required></p>
+<p><label for="myemail">Your email: </label>
+<input type="email" name="myemail" id="myemail" required /></p>
+<p><label for="tel1">Type your telephone: </label>
+<input type="tel" name="tel1" id="tel1" required /></p>
+<p><label for="people">How many people travelling with you: </label>
+<input type="number" name="people" id="people"  min="0" max="15" /></p>
+<p><label for="message">Message:</label>
+<textarea name="message" id="message" cols="70" rows="10" placeholder="type your message"></textarea></p>
+<br>
+<br>
+
+<input type="submit" value="Submit Info" />&nbsp;&nbsp;&nbsp;<input type="reset" value="Clear Form" />
+</form>
+<div id="contact">
+    <p><span class="resort">Pacific Trails Resort</span><br>
+12010 Pacific Trails Road<br>
+Zephyr, CA 94555<br>
+1-888-555-5555</p>
+</div>
+<div id="footer">
+<p>Copyright &copy; 2011 Pacific Trails Resort<br>
+<span class="em">webmaster name</span></p>
+</div>
+    </main>
+</div>
+</body>
+</html>
